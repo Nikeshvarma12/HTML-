@@ -2,7 +2,15 @@
 <html>
     <head><title>Qualification</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <style>
+          table th,td{
+            background-color: green;
+            font-style: italic;
+            text-decoration: #2196F3;
+          }
                   body {
                 background-color:coral;
                 }
@@ -11,6 +19,11 @@
                 background-color: lightblue;
             }
            }
+           @media  screen and (min-width: 920px) {
+            body {
+                background-color:yellowgreen;
+            }
+        }
             a{
                 font-size: 20px;
             }
@@ -36,7 +49,7 @@
        
         * {box-sizing: border-box}
 
-.container {
+.class1 {
   width: 10%;
   background-color: #ddd;
 }
@@ -65,9 +78,26 @@ footer{
     <body>
     
         
-    <a style="font-size: 20px; padding: 10px;" href="about.html">ABOUT</a>
-    <a style="font-size: 20px; padding: 10px;"  href="project.html">Project</a>
-    <a style="font-size: 20px; padding: 10px;"  href="contact.html">Contact Me</a>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="about.html">About</a></li>
+              <li><a href="project.html">Project</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
     
     <br><br><br><br><br>
     <h2 style="font-size:20px">Education Qualification</h2>
@@ -107,22 +137,22 @@ footer{
         <h1>My Skills</h1>
 
 <p>HTML</p>
-<div class="container">
+<div class="class1">
   <div class="skills html">65%</div>
 </div>
 
 <p>CSS</p>
-<div class="container">
+<div class="class1">
   <div class="skills css">70%</div>
 </div>
 
 <p>C</p>
-<div class="container">
+<div class="class1">
   <div class="skills c">65%</div>
 </div>
 
 <p>Python</p>
-<div class="container">
+<div class="class1">
   <div class="skills python">60%</div>
 </div><br><br><br><br>
 <footer>
