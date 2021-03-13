@@ -1,108 +1,77 @@
 <!DOCTYPE html>
-<html>
-    <head><title>Qualification</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+<head>
+  
+    <title>My portfolio</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
         <style>
-          table th,td{
-            background-color: green;
-            font-style: italic;
-            text-decoration: #2196F3;
+            
+          table
+          {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
           }
-                  body {
-                background-color:coral;
-                }
-            @media  screen and (max-width: 600px) {
-            body {
-                background-color: lightblue;
-            }
-           }
-           @media  screen and (min-width: 920px) {
-            body {
-                background-color:yellowgreen;
-            }
+          th 
+          {
+              text-align: center;
+              border: 1px solid #ddd;
+              padding: 8px;
+              background-color:rgb(98, 128, 98);
+          }
+          td 
+          {
+              text-align: center;
+              font-family: monospace;
+              font-weight: bold;
+              font-size: large;
+              border: 1px solid #ddd;
+              padding: 8px;
+          }
+          li{
+            list-style-type: none;
+          }
+          body{
+            background-image: url("8.jpg");
         }
-            a{
-                font-size: 20px;
-            }
-            a:link,
-                a:visited {
-                padding: 15px 45px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                background-color: white ;
-                }
-    
-                a:hover,
-                a:active {
-                background-color: greenyellow;
-                }
-                table th,td{
-            border:2px solid black;
-            text-align: center;
-            padding: 15px;
-            font-size: medium;
-        }
-       
-        * {box-sizing: border-box}
+                  </style>
+</head>
 
-.class1 {
-  width: 10%;
-  background-color: #ddd;
-}
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
-
-.html {width: 65%; background-color: #4CAF50;}
-.css {width: 70%; background-color: #2196F3;}
-.c {width: 65%; background-color: #f44336;}
-.python {width: 60%; background-color: red;}
-footer{
-            font-size: 13px;
-            text-align: center;
-            background-color: aliceblue;
-
-        }
-    
-        </style>
-    </head>
     
     <body>
-    
-        
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                         
             </button>
             
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a href="about.html">About</a></li>
-              <li><a href="project.html">Project</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="home.html">Home</a></li>
+              <li class="active"><a href="#">Qualifications</a></li>
+              <li> <a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                
             </ul>
-            
           </div>
         </div>
-      </nav>
-    
-    <br><br><br><br><br>
-    <h2 style="font-size:20px">Education Qualification</h2>
+      </nav><br><br><br> 
+          <h1 align="center"><b>MY PORTFOLIO</b></h1><br><br><br>
+
+    <h2 style="font-size:30px;text-align: center;"><b>Education Qualification</b></h2><br>
     <table>
-    <tr>
+    <tr style="font-size:20px;">
         <th>Institution</th>
         <th>Qualification</th>
         <th>Year</th>
@@ -123,40 +92,38 @@ footer{
         <td>2020</td>
         <td>80</td>
     </tr>
-    </table><br>
-    <h1 style="font-size: 20px;">Technical skills</h1>
+    </table><br><br><br>
+    <h2 style="font-size:30px;text-align: center;"><b>Technical skills</b></h2><br>
     <p>
-        <ul>
+        <ul style="text-align: center;font-size:20px">
             <li>
             <b>Operating Systems:</b> Linux (Ubuntu)</li>
             <li>
             <b>Application Software:</b> Excel 2003/2007, spreadsheets.</li>
             <li>
             <b>Programming Skills:</b>HTML, CSS, Python,  C</li></ul>
-        </p> 
-        <h1>My Skills</h1>
-
-<p>HTML</p>
-<div class="class1">
-  <div class="skills html">65%</div>
+        </p> <br><br>
+        <h2 style="font-size:30px;text-align: center;"><b>My Skills</b></h2><br>
+        <p style="text-align: center;font-size:20px">C : 
+          60% 
+        </div>
+      </div>
+      <p style="text-align: center;font-size:20px">CSS : 
+        70%
+      </div>
+<p style="text-align: center;font-size:20px">HTML : 65% 
+  </div>
 </div>
 
-<p>CSS</p>
-<div class="class1">
-  <div class="skills css">70%</div>
+
 </div>
 
-<p>C</p>
-<div class="class1">
-  <div class="skills c">65%</div>
-</div>
-
-<p>Python</p>
-<div class="class1">
-  <div class="skills python">60%</div>
+<p style="text-align: center;font-size:20px">Python :
+    65% 
+  </div>
 </div><br><br><br><br>
-<footer>
-    COPYRIGHTS RESERVED 2020 - 2022 
-</footer>
     </body>
     </html>
+    <footer>
+      <h1 style="font-size: 17px;text-align: center; background-color:wheat;"> COPYRIGHTS RESERVED 2020 - 2022 </h1>
+      </footer>
