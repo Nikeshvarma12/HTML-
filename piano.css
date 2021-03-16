@@ -1,0 +1,50 @@
+* {
+    
+   
+    box-sizing: border-box;
+   
+   
+}
+body {
+  
+    background: lightgrey;
+  
+}
+.piano1 {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+.white {
+    width: 10%;
+    min-width: 30px;
+    height: 50%;
+    background-color: white;
+    border: 2px solid #ccc;
+   
+    border-bottom-width: 10px;
+  
+           
+}
+.black {
+    width: 6%;
+    height: 25%;
+    background-color: black;
+    margin-left: -3%;
+    margin-right: -3%;
+    z-index: 2;
+ 
+}
+
+.white.active {
+    background-color: #ccc;
+}
+
+.black.active {
+    background-color: #333;
+}
+h1{
+    color:blue;
+    
+}
