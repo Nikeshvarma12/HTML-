@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            QUIZ
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="question.js"></script>
+        <style>
+            body{
+                margin-top:  100px;
+                text-align: center;
+                font-size: large;
+                background-color: gray;
+            }
+            .container{
+             color: green;
+             border-radius: 20px;
+             padding: 35px 27px;
+             text-align: left;
+             width: 35%;
+             background-color: lightgray;
+            }
+            #next{
+                display: none;
+            }
+            h1{
+                color: yellowgreen;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Question-3</h1>
+        <div class="container">
+            <div id="13">Who was the player of the IPL 2017 season:</div>
+            <input type="checkbox" id="1" onclick="selectOnlyThis(this.id)">
+            <label for="1">Virat Kohli</label><br>
+            <input type="checkbox" id="2" onclick="selectOnlyThis(this.id)">
+            <label for="2">Rohith Sharma</label><br>
+            <input type="checkbox" id="3" onclick="selectOnlyThis(this.id)">
+            <label for="3">Ben Stokes</label><br>
+            <input type="checkbox" id="4" onclick="selectOnlyThis(this.id)">
+            <label for="4">Hardik Pandya</label><br>
+            <button type="button"  id="sub1" onclick="verify()">Submit</button>
+            <p id="output"></p>
+            <button type="button"  id="next" onclick="location.href='qsn4.html'">Next</button>
+        </div>
+    </body>
+</html>

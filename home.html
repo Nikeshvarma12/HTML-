@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="home.css">
+
+    </head>
+    <body>
+        <center><br><br><br><br>
+            <h1>SAMPLE QUIZ</h1>
+            <h2>Login to Continue</h2>
+            <div class="container">
+                <div class="row">
+
+                    <h2>Please enter your Details</h2>
+                    <div class="form-group">
+                        <label for="name">Enter your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your Name" name="name">
+                    </div></div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="ID">ID</label>
+                            <input type="text" class="form-control" id="ID" placeholder=" Enter Your ID" name="ID">
+                        </div></div>
+                        <div class="row">
+                            <button type="button" id="btn" data-toggle="modal" data-target="#myModal">Submit</button>
+                        </div>
+            </div>
+        </center>
+        <script>
+            const name=document.getElementById("name");
+            const ID=document.getElementById("ID");
+            const btn=document.getElementById("btn");
+            btn.onclick=function(){
+                const nam=name.value;
+                const id=ID.value;
+                if(nam&&id){
+                    localStorage.setItem(nam,id);
+                    location.assign("samplequiz.html");
+                }
+            };
+        </script>
+    </body>
+</html>

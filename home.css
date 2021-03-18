@@ -1,0 +1,18 @@
+h1{
+    color: greenyellow;
+}
+h2{
+    color: green;
+}
+.container{
+    color: green;
+    border-radius: 20px;
+    padding: 35px 27px;
+    text-align: left;
+    width: 35%;
+}
+body{
+    background-image: url("4.jpg");
+    
+
+}

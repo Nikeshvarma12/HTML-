@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Quiz</title>
+        <style>
+            body{
+                margin-top: 150px;
+                background-color: azure;
+                
+            }
+            
+            h2{
+                color:blue;
+                font-size: 80px;
+            }
+            p{
+                color: green;
+                font-size: 50px;
+            }
+            #butn{
+                font-size: 40px;
+                color: crimson;
+            }
+        </style>
+
+    </head>
+    <body>
+        <center>
+            <h2>HELLO!</h2>
+           
+            <p>CLICK BELOW TO START THE QUIZ</p>
+            <button id="butn">START</button>
+            <script>
+                const nam=localStorage.key(0);
+                const id=localStorage.getItem(nam);
+                
+                butn.onclick=function(){
+                    location.assign("qsn1.html");
+                }
+            </script>
+
+        </center>
+    </body>
+</html>
